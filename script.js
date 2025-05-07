@@ -30,14 +30,14 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
     // typing text animation script
-    var typed = new Typed(".typing", {
-        strings: ["Frontend-Entwickler", "Anwendungsentwickler", "Webdesigner"],
+    let typed1 = new Typed(".typing", {
+        strings: ["Frontend-Entwickler", "Fullstack-Entwickler", "Webdesigner"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
-    var typed = new Typed(".typing-2", {
-        strings: ["Frontend-Entwickler", "Anwendungsentwickler", "Webdesigner"],
+    let typed2 = new Typed(".typing-2", {
+        strings: ["Frontend-Entwickler", "Fullstack-Entwickler", "Webdesigner"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
